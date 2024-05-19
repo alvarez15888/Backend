@@ -4,10 +4,10 @@ const userRoute = require('./routes/users')
 
 const app = express()
 
-const PORT = 8080
+const PORT = 8000
 
 
-require('./database')
+// require('./database')
 app.use(express.json())
 
 app.use('/api/users',userRoute)

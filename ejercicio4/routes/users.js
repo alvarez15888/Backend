@@ -6,7 +6,7 @@ const router = Router()
 // habilitar el cookieParser
 router.use(cookieParser())
 router.use(session({
-    secret: 'UBU',
+    secret: 'secret_word',
     resave: false,
     saveUninitialized: false
 }))
